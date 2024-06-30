@@ -1,0 +1,20 @@
+print('*-* Calculadora *-*')
+
+var = int(input('Digite o 1° Numero\n'))
+var2 = int(input('Digite o 2° Numero\n'))
+var3 = input('Digite o operador\n')
+
+if (var3) == '+':
+  print('Soma é: ' ,  var + var2)
+
+elif (var3) == '-':
+    print('Subtração é: ' ,  var - var2)
+
+elif (var3) == '*':
+    print('Multiplicação' , var*var2)
+    
+elif (var3) == '/':
+    print('Divisão é: ', var/var2)
+    
+else: 
+    print('Erro!!!!!!!')
